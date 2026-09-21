@@ -7,7 +7,7 @@ pipeline {
 
     stages {
 
-        stage('1. Build') {
+        stage('1. Build') { // testing auto trigger
             steps {
                 echo "Task: Compile and package the application code."
                 echo "Tool: Maven"
